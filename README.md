@@ -1,41 +1,39 @@
-# Teknolojik Market — React Sepet Uygulaması
+# Teknolojik Market | React Shopping Cart
 
-React ve Vite ile hazırlanmış, ürünleri sepete eklemeyi ve sepetten çıkarmayı gösteren örnek alışveriş arayüzü.
+[English](#english)
 
-## Özellikler
+## Türkçe
 
-- Ürün listesinden sepete ürün ekleme
-- Sepetteki ürünleri görüntüleme
-- Seçilen ürünü sepetten çıkarma
-- React `useState` ile sepet durumunu yönetme
-- Ürün listesi ve sepet özeti için ayrı bileşenler
+**Teknolojik Market**, React ile oluşturulmuş eğitim ve portfolyo amaçlı alışveriş sepeti arayüzüdür. **Bileşen tasarımı, `useState` ile durum yönetimi ve kullanıcı etkileşimleri** üzerine odaklanır.
 
-## Teknolojiler
+### Özellikler
+- Ürün listesini görüntüleme ve sepete ürün ekleme
+- Sepetteki ürünleri görüntüleme ve çıkarma
+- `useState` ile sepet durumunu yönetme
+- `ProductList` ve `CartSummary` bileşenleriyle sorumlulukları ayırma
 
-React, JavaScript, Vite ve CSS.
+**Teknolojiler:** React 19 · JavaScript · Vite · CSS · Oxlint
 
-## Kurulum
-
+### Kurulum
 ```bash
 npm install
 npm run dev
 ```
 
-## Kontroller
-
+### Kontroller
 ```bash
 npm run lint
 npm run build
 ```
 
-## Proje yapısı
+> Bu uygulama ödeme altyapısı veya gerçek sipariş servisi içerdiği iddiasında değildir. Canlı demo bağlantısı henüz tanımlanmamıştır.
 
-- `src/App.jsx`: Sepet durumu ve ekleme/çıkarma işlemleri
-- `src/components/ProductList`: Ürün listesi
-- `src/components/CartSummary`: Sepet özeti
+## English
 
-## Geliştirme fikirleri
+A small React shopping-cart project focused on **component composition, `useState` state management, and add/remove cart interactions**.
 
-Ürün adedi yönetimi, kalıcı sepet, otomatik testler ve mobil görünümün iyileştirilmesi.
+**Features:** product list, add to cart, cart summary, remove from cart. **Stack:** React 19, JavaScript, Vite, CSS, Oxlint.
 
-> Bu proje eğitim/portföy amaçlıdır. Ödeme altyapısı içerdiği iddia edilmemektedir.
+**Run:** `npm install && npm run dev` · **Checks:** `npm run lint && npm run build`
+
+> Educational frontend demo; no payment processing or backend order service is claimed.
